@@ -93,6 +93,9 @@ font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 }
 
+button.close {
+font-size:3em;
+}
 
 
 /* section headings i.e. Our Approach */
