@@ -70,13 +70,14 @@ border-bottom: 2px solid #777;
 }
 
 .modal-content {
-padding: 0px 20px;
+padding: 0px 80px;
 margin-top:20%;
 }
 
-.modal-lg .modal-content {
-margin-top:0px;
-}
+.modal-content {
+ /* background-color: #a9be55; */
+background: #ffffff url("../images/background-gradient-green.jpg") repeat-x; 
+ }
 
 .modal-body h4 {
 margin-top:30px;
@@ -196,9 +197,10 @@ margin-top:8em;
 
 #ourapproach-wrap {
 /* background-color: #A9BE55;  */
-padding-top:5em;
+padding-top:20vh;
 padding-bottom:2em;
 color: #444;
+/* height:100vh; */
 }
 
 #ourapproach-wrap, #footer {
@@ -365,10 +367,15 @@ height: 50px;
 	margin-top: 30px;
 	}
 	
-	
 	.whoweserve.col-md-offset-2 img {
 	margin-top: -10px;
 	}
+	
+	.modal-content {
+padding: 0px 20px;
+margin-top:20%;
+}
+	
 
 } /* end sm */
 
