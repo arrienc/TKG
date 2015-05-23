@@ -69,9 +69,13 @@ color: #666;
 border-bottom: 2px solid #777;
 }
 
+.modal-lg {
+   /*  width: 800px; */
+}
+
 .modal-content {
 padding: 0px 80px;
-margin-top:20%;
+margin-top:0px;
 }
 
 .modal-content {
@@ -84,7 +88,7 @@ margin-top:30px;
 }
 
 .modal-body p {
-margin-top:10px;
+margin-top:18px;
 }
 
 .modal-body li {
@@ -101,7 +105,7 @@ font-size:3em;
 
 /* section headings i.e. Our Approach */
 h2.center-block {
-padding-bottom: 1em;
+padding-bottom: 2em;
 font-family: "Open Sans",sans-serif;
 font-weight: 300;
 font-size: 1.8em;
@@ -112,10 +116,10 @@ color: #555;
 
 h3 {
 font-family: "Open Sans",sans-serif;
-font-weight: 400;
-font-size: 1.5em;
-/* font-variant: small-caps; */
-text-transform: uppercase;
+font-weight: 300;
+font-size: 1.8em;
+/* font-variant: small-caps;
+text-transform: uppercase; */
 color: #555;
 }
 
@@ -166,10 +170,8 @@ transform: scale(1.06);
 /* =============== */
 
 #header {
-padding-top: 12em;
-/*padding-bottom: 10em;  
-min-height: 30em;*/
-background-color: white; /*  #ccc;  #fefefe; #ffffff;*/
+padding-top: 20vh;
+background-color: #FFF;
 }
 
 #header .lead {
@@ -198,20 +200,21 @@ margin-top:8em;
 #ourapproach-wrap {
 /* background-color: #A9BE55;  */
 padding-top:20vh;
-padding-bottom:2em;
+padding-bottom:20vh;
 color: #444;
-/* height:100vh; */
+/* background: #ffffff url("../images/background-gradient-green-long.jpg") repeat-x;  */
 }
 
-#ourapproach-wrap, #footer {
+#ourapproach-wrap {
 background: #a9be55; /* Old browsers */
-background: -moz-linear-gradient(top,  #a9be55 8%, #ebefdb 77%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(8%,#a9be55), color-stop(77%,#ebefdb)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #a9be55 8%,#ebefdb 77%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #a9be55 8%,#ebefdb 77%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #a9be55 8%,#ebefdb 77%); /* IE10+ */
-background: linear-gradient(to bottom,  #a9be55 8%,#ebefdb 77%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9be55', endColorstr='#ebefdb',GradientType=0 ); /* IE6-9 */
+background: -moz-linear-gradient(top,  #a9be55 0%, #e8eed1 13%, #ffffff 39%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9be55), color-stop(13%,#e8eed1), color-stop(39%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a9be55 0%,#e8eed1 13%,#ffffff 39%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a9be55 0%,#e8eed1 13%,#ffffff 39%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a9be55 0%,#e8eed1 13%,#ffffff 39%); /* IE10+ */
+background: linear-gradient(to bottom,  #a9be55 0%,#e8eed1 13%,#ffffff 39%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9be55', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
 
 }
 
@@ -225,14 +228,14 @@ padding-top:4em;
 padding-bottom:5em;
 }
 #whoweserve-wrap, #contact {
-background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffffff 1%, #f2f2f2 33%, #dddddd 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(33%,#f2f2f2), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #ffffff 1%,#f2f2f2 33%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ffffff 1%,#f2f2f2 33%,#dddddd 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #ffffff 1%,#f2f2f2 33%,#dddddd 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #ffffff 1%,#f2f2f2 33%,#dddddd 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+background: #eaeaea; /* Old browsers */
+background: -moz-linear-gradient(top,  #eaeaea 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaeaea), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #eaeaea 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #eaeaea 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #eaeaea 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #eaeaea 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 
@@ -240,6 +243,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* background-color: #CFE1E8;  */ 
 padding-top:6em;
 padding-bottom:6em;
+}
+
+#thepeople h2.center-block {
+padding-bottom:0;
+margin-bottom: 0px;
 }
 
 #thepeople {
@@ -251,8 +259,9 @@ background: -o-linear-gradient(top,  #a4c3ca 1%,#d2e6ee 70%,#f1f1f1 100%); /* Op
 background: -ms-linear-gradient(top,  #a4c3ca 1%,#d2e6ee 70%,#f1f1f1 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #a4c3ca 1%,#d2e6ee 70%,#f1f1f1 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4c3ca', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
-
 }
+
+
 
 #contact { 
 padding-top:4em;
@@ -268,18 +277,6 @@ padding-top: 20px;
 padding-bottom: 20px;
 /* background-color: #ddd; */
 min-height: 55em;
-}
-
-#footer {
-background: #a9be55; /* Old browsers */
-background: -moz-linear-gradient(top,  #a9be55 1%, #ffffff 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#a9be55), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #a9be55 1%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #a9be55 1%,#ffffff 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #a9be55 1%,#ffffff 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #a9be55 1%,#ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9be55', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
 }
 
 #address {
@@ -354,11 +351,11 @@ height: 50px;
 	/* background-size: cover auto; */ 
 	padding-bottom:150px;
 	}
-	
-	.people:first-child img {
-    margin-top: -20px;
-	}
 
+	.people:first-child img {
+	margin-top: -0px;
+	}
+	
 	.extraspacetop {
 		margin-top: 16px !important;
 	}
@@ -367,15 +364,17 @@ height: 50px;
 	margin-top: 30px;
 	}
 	
-	.whoweserve.col-md-offset-2 img {
-	margin-top: -10px;
+	.whoweserve:first-child img {
+	margin-top: -15px !important;
 	}
 	
 	.modal-content {
-padding: 0px 20px;
-margin-top:20%;
-}
-	
+	padding: 0px 20px;
+	}
+
+	h2.center-block {
+	padding-top: 1.5em;
+	}
 
 } /* end sm */
 

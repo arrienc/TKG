@@ -102,7 +102,7 @@
 
 	<div class="col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
 
-	  <h2 class="center-block" style=" margin-bottom: 20px;"><span>Our Approach</span></h2>
+	  <h2 class="center-block"><span>Our Approach</span></h2>
 
 	  <p >The Kedar Group (TKG) specializes in the tools and strategies of communicative, collaborative and global leadership intelligence — strengthening organizational relationships and in turn, enhancing team effectiveness while producing politically-savvy global leaders. <br />&nbsp;</p>
 
@@ -121,6 +121,8 @@
 	</div><!-- /.container -->
 </div> <!-- #ourapproach-wrap-->
 
+
+<!-- =============================== -->
 <!-- Our Approach content for modal -->
 
 <div class="modal fade" id="more-our" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -131,6 +133,7 @@
         <h3 class="modal-title center-block" id="myModalLabel">&nbsp;<br />Our Approach</h3>
       </div>
       <div class="modal-body">
+      
   <p>The Kedar Group (TKG) brings a dynamic, integrative and reflective approach to executives, leaders and teams who are committed to making a difference and achieving results. We coach, facilitate and guide clients in the areas of leadership development and presence, promoting emotional agility, engagement and collaboration.</p>
 
 <p>We see all organizations as the sum of conversations and the web of relationships conversations create between teams. Effective leadership is the art of cultivating and leveraging those relationships to produce robust, high-capacity teams that achieve superior results, and that’s where we come in. We work with leaders to explore the integration of relationships, resources and possibilities to accomplish lasting results through organizational transformation.</p>
@@ -163,26 +166,20 @@
 <li>Trainings.</li>
 </ul>
 
-
-
-
-
-
-&nbsp;<br />
-&nbsp;<br />
-&nbsp;<br />
 &nbsp;<br />
 &nbsp;<br />
 &nbsp;<br />
 &nbsp;<br />
 
-      </div>
-      <div class="modal-footer">
+	</div><!--/ .modal-body -->
+	
+  	<div class="modal-footer">
         <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
-      </div>
     </div>
-  </div> <!-- .modal-dialog -->
-</div> <!-- .modal -->
+    
+    </div> <!--/ .modal-content -->
+  </div> <!--/ .modal-dialog -->
+</div> <!--/ .modal -->
 
 
 
@@ -200,13 +197,13 @@
 <div  id="whoweserve-wrap" >
 <div  class="container-fluid">
 
-  <h2 class="center-block" style="margin-bottom:30px;"><span>Who We Serve</span></h2>
+  <h2 class="center-block"><span>Who We Serve</span></h2>
 
 <div class="row">
   <div class="col-md-8 col-md-offset-2">
     <div class="row">
     <div class="col-md-4 whoweserve  text-center grow"  >
-    <img src="images/tkg_icon_a.png" class="img-responsive center-block" >
+    <img src="images/tkg_icon_a.png" class="img-responsive center-block" id="first" >
       <h3>Aspiring Leaders</h3>
       <p class="who">Transitioning from team player to team leader</p>
     </div> 
@@ -346,8 +343,8 @@ To learn more about how TKG works with clients, visit XX. (Links to anchor lower
 
 <div class="row"> <!-- row 4 -->
 
-    <div class="col-md-6 col-md-offset-3 grow"  >
-    <img src="images/client-logos_umd.jpg" class="img-responsive center-block" style="max-width: 216px;">
+    <div class="col-md-4 col-md-offset-4 grow"  >
+    <img src="images/client-logos_umd.jpg" class="img-responsive center-block" >
     </div> 
 
  
@@ -472,7 +469,7 @@ To learn more about how TKG works with clients, visit XX. (Links to anchor lower
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title" id="myModalLabel">&nbsp;<br />LEAH KEDAR</h3>
+        <h3 class="modal-title" id="myModalLabel">&nbsp;<br />Leah Kedar</h3>
       </div>
       <div class="modal-body">
   <p>Leah has over 25 years of experience leading organizational change efforts worldwide. She works with clients in the U.S. and internationally, facilitating organization transformation from the inside out, helping teams, leaders and organizations in diverse organizational environments, including: government, corporate, not-for-profit, political and academic. Ms. Kedar is known for her exceptional ability to bring together disparate voices in the pursuit of common goals. She is the author of <em>Voices of Children: AIDS Orphans in the District of Columbia</em> and editor of <em>Power Through Discourse</em>. Ms. Kedar is based in Washington, D.C.<br />&nbsp;</p>
@@ -490,7 +487,7 @@ To learn more about how TKG works with clients, visit XX. (Links to anchor lower
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h3 class="modal-title" id="myModalLabel">&nbsp;<br />JOY LEACH</h3>
+        <h3 class="modal-title" id="myModalLabel">&nbsp;<br />Joy Leach</h3>
       </div>
       <div class="modal-body">
   <p>Joy has over 25 years of experience in O.D. consulting, workshop design and training, and executive coaching. She has substantial experience in designing and developing programs for diversity, management skills, team communication and collaboration. Joy is co-author of <em>Personal Power: Today's Guide for the Working Woman</em>, and <em>A Practical Guide to Working With Diversity</em>. Joy is based in Santa Barbara, California.<br />&nbsp;</p>
@@ -591,64 +588,65 @@ To learn more about how TKG works with clients, visit XX. (Links to anchor lower
 	<div class="col-md-6 col-md-offset-3">
 	
 	
-    <form name="insightly_web_to_contact" action="https://googleapps.insight.ly/WebToContact/Create" method="post" id="contactform" class="center-block">
+ <form name="insightly_web_to_contact" action="https://googleapps.insight.ly/WebToContact/Create" method="post">
+
+<input type="hidden" name="formId" value="UVeGssc0L3Bv+aZKlvGRnQ=="/>
 
       <div class="form-group text-left">
         <label  for="insightly_firstName">First Name</label>
-        <input id="insightly_firstName" name="FirstName" type="text" class="form-control"  placeholder="First Name"/>
+        <input id="insightly_firstName" name="FirstName" type="text" class="form-control" />
       </div> <!-- form group -->
       
       <div class="form-group text-left">
         <label  for="insightly_lastName">Last Name</label>
-        <input id="insightly_lastName" name="LastName" type="text" class="form-control"  placeholder="First Name"/>
+        <input id="insightly_lastName" name="LastName" type="text" class="form-control"  />
+      </div> <!-- form group -->
+      
+  <div class="form-group text-left">
+        <label  for="insightly_lastName">Organization</label>
+        <input  id="insightly_organization" name="Organization" type="text" class="form-control"/>
+      </div> <!-- form group -->
+           
+
+  <div class="form-group text-left">
+        <label  for="insightly_lastName">Title</label>
+        <input  id="insightly_role" name="Role" type="text" class="form-control"  />
       </div> <!-- form group -->
 
       <div class="form-group text-left">
       <input type="hidden" name="emails[0].Label" value="Work"/>
-        <label for="email[0]_Value">Email address</label>
-        <input id="emails[0]_Value" name="emails[0].Value" class="form-control" placeholder="Enter email">
+        <label for="email[0]_Value">Work Email</label>
+        <input id="emails[0]_Value" name="emails[0].Value" class="form-control" ">
+      </div>
+      
+      
+      <div class="form-group text-left">
+      <input type="hidden" name="emails[0].Label" value="Work"/>
+        <label for="email[0]_Value">Work Phone</label>
+        <input id="emails[0]_Value" name="emails[0].Value" type="text"  class="form-control" />
       </div>
      
       <div class="form-group text-left">
-        <label  for="insightly_background">Message</label>
-        <textarea  rows="5" class="form-control"  id="insightly_background" name="background" placeholder="Drop us a line for a free consultation" style="resize: none;"></textarea>
+        <label  for="insightly_background"></label>
+        <textarea rows="5" class="form-control"  id="insightly_background" name="background" style="resize: none;" placeholder="Additional background information"></textarea>
       </div>
+      
       <input type="submit" value="Submit" class="btn btn-default pull-left">
       
     </form>
     
-<!--     
-  <form name="insightly_web_to_contact" action="https://googleapps.insight.ly/WebToContact/Create" method="post" id="contactform" class="center-block">
-<input type="hidden" name="formId" value="UVeGssc0L3Bv+aZKlvGRnQ=="/>
-
-<label for="insightly_firstName">First Name: </label>
-<input id="insightly_firstName" name="FirstName" type="text"/><br/>
-<label for="insightly_lastName">Last Name: </label>
-<input id="insightly_lastName" name="LastName" type="text"/><br/>
-<input type="hidden" name="emails[0].Label" value="Work"/>
-<label for="email[0]_Value">Work Email: </label>
-<input id="emails[0]_Value" name="emails[0].Value" type="text"/><br/>
-
-<label for="insightly_background">Additional background information: </label><br>
-<textarea id="insightly_background" name="background"></textarea><br/>
-
-<input type="submit" value="Submit"/>
-
-</form>  
-    
- -->
-    
-    
     	</div> <!-- col -->
       </div> <!-- row -->
       
+<!-- 
       
 <div class="row"> 
 	<div class="col-md-12">
      <a href="#footer" class="scrolly"><img src="images/thin_arrow_point.png" class="img-responsive center-block" style="margin-top:6em;"></a>
-     </div> <!-- col -->
-</div> <!-- row -->
+     </div> 
+</div>
                
+ -->
       
       
       
@@ -676,7 +674,12 @@ To learn more about how TKG works with clients, visit XX. (Links to anchor lower
 
 <div id="socialmedia" class="center-block">
 
-  <img src="images/social-media-vectors.png">
+  <a href="http://www.twitter.com/thekedargroup">
+  <img src="images/sm-twitter.png"></a>&nbsp;
+    <a href="http://www.facebook.com/thekedargroup">
+  <img src="images/sm-fb.png"></a>&nbsp;
+    <a href="http://www.instagram.com/thekedargroup">
+  <img src="images/sm-instagram.png"></a>
   
 </div>
 
